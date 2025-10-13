@@ -1,0 +1,61 @@
+header {
+    font-family: Wingdings;
+}
+body {
+    font-family: Arial;
+}
+html {
+    display: block;
+}
+header {
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+body {
+    background-color: blanchedalmond
+}
+section {
+    font-family: 'Big John';
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 4em;
+    border-style: solid;
+    border-left-color: blue;
+    border-top-color: green;
+    border-right-color: red;
+    border-bottom-color: mediumpurple;
+}
+nav {
+    display: block;
+}
+h1 {
+    font-size: 50px;
+    color: limegreen;
+}
+h2 {
+    color: blueviolet;
+    font-size: larger
+}
+
+p {
+    color: indianred;
+    font-size: medium
+}
+ul {
+    background-color: azure;
+    margin-bottom: 0px;
+}
+li {
+    display: inline;
+    margin-right: 40px;
+    unicode-bidi: isolate;
+}
+img {
+     max-width: 30%;
+     height: auto;
+}
