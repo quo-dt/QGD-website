@@ -102,7 +102,7 @@ window.addEventListener('DOMContentLoaded', () => {
             else return num;
         })
 
-        localTimeEl.innerHTML += `${year}-${disp[1]}-${disp[0]} ${disp[2]}:${disp[3]}:${disp[4]}`;
+        localTimeEl.innerHTML = `Current time: ${year}-${disp[1]}-${disp[0]} ${disp[2]}:${disp[3]}:${disp[4]}`;
     }
 
 
