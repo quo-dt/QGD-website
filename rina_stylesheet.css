@@ -1,0 +1,195 @@
+
+body {
+    padding-bottom: 6em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+header {
+    margin: 1.5rem auto;
+    background-image: url("images/header.png");
+    width: 70rem;
+}
+nav {
+    margin: 0rem auto;
+    background-color: #E7E9EB;
+    width: 70rem;
+}
+main {
+    margin: 1.5rem auto;
+    background-color: whitesmoke;
+    border-radius: 4rem;
+    border-style: solid;
+    border-left-color: blue;
+    border-top-color: green;
+    border-right-color: red;
+    border-bottom-color: mediumpurple;
+    width: 70rem;
+}
+section {
+    margin: 1.5rem auto;
+    background-color: whitesmoke;
+    border-radius: 4rem;
+    border-style: solid;
+    border-left-color: blue;
+    border-top-color: green;
+    border-right-color: red;
+    border-bottom-color: mediumpurple;
+    width: 70rem;
+}
+aside {
+    position: fixed;
+    background-color: lavender;
+    border-radius: 0.5rem;
+    width: 11%;
+    bottom: 1rem;
+    left: 1rem;
+}
+footer {
+    margin: 0rem auto;
+    background-color: #E7E9EB;
+    width: 70rem;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+ul {
+    text-align: center;
+    font-size: 29px;
+    height: 3rem;
+    color: darkslateblue;
+}
+li {
+    display: inline;
+    margin-right: 6rem;
+    line-height: 3rem;
+}
+.paragraph-left {
+    margin-left: 5rem;
+    font-size: 21px;
+    width: 34rem;
+    text-align: justify;
+}
+.paragraph-right {
+    margin-top: 0.3rem;
+    margin-right: 5rem;
+    font-size: 21px;
+    width: 34rem;
+    text-align: justify;
+    float: right;
+}
+.image-left {
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 23rem;
+}
+.image-right {
+    margin-left: 3rem;
+    margin-right: 5rem;
+    width: 23rem;
+    float: right;
+}
+.gallery-left {
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 29rem;
+}
+
+.gallery-right {
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+    width: 29rem;
+    float: right;
+}
+.buttons {
+    color: white;
+    font-size: 24px;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border-style: hidden;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+.comment {
+    margin-top: 1.5rem;
+}
+.comment-comment {
+    margin-left: 1rem;
+}
+.comment-comment-comment {
+    width: 56rem;
+    text-align: justify;
+}
+.comment-form {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+#banner {
+    height: 8rem;
+}
+#logo {
+    vertical-align: middle;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 6rem;
+    width: 6rem;
+}
+#title {
+    position: relative;
+    color: white;
+    font-size: 64px;
+    top: 1rem;
+}
+#introduction {
+    overflow: hidden;
+}
+#char-growth {
+    overflow: hidden;
+}
+#hide_show {
+    margin-right: 0rem;
+}
+#button-row {
+    text-align: center;
+    display: none;
+}
+#button1 {
+    background-color: green;
+}
+#button2 {
+    background-color: red;
+}
+#button3 {
+    background-color: grey;
+}
+#button4 {
+    background-color: blue;
+}
+#mononoke-girl {
+    margin-top: 2rem;
+    padding-bottom: 2.4rem;
+}
+#added-spotlights {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+}
+#comment-form-email {
+    width: 60rem;
+}
+#comment-form-comment {
+    width: 60rem;
+    height: 10rem;
+    resize: none;
+}
+#comment-button-submit {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    background-color: azure;
+    border-width: 0.05rem;
+}
+#comment-thread {
+    margin-left: 5rem;
+}

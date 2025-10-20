@@ -1,0 +1,194 @@
+<!-- I declare that the lab work here submitted is original
+except for source material explicitly acknowledged,
+and that the same or closely related material has not been
+previously submitted for another course.
+I also acknowledge that I am aware of University policy and
+regulations on honesty in academic work, and of the disciplinary
+guidelines and procedures applicable to breaches of such
+policy and regulations, as contained in the website.
+
+University Guideline on Academic Honesty:
+https://www.cuhk.edu.hk/policy/academichonesty/
+
+Student Name : Hung Hei Chit
+Student ID : 1155192617
+Class/Section : CSCI2720
+Date : 20-OCT-2025 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Tennoji Rina</title>
+    <script src="rina_javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="rina_stylesheet.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <h1>
+                <img id="logo" alt="Logo" src="images/logo.png">
+                <span id="title">All about Tennoji Rina</span>
+            </h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#char-growth">Growth</a></li>
+            <li><a href="#card-gallery">Gallery</a></li>
+            <li><a href="#comments-problems">Comments</a></li>
+            <li id="hide_show"><a href="#">Show</a></li>
+        </ul>
+    </nav>
+
+    <div id="button-row">
+        <!-- Buttons for Problem 3 -->
+        <button class="buttons" id="button1">Task 1: Font Size +</button>
+        <button class="buttons" id="button2">Task 1: Font Size -</button>
+        <button class="buttons" id="button3">Task 2: Spotlight</button>
+        <button type="button" class="buttons" id="button4" data-bs-toggle="modal" data-bs-target="#modal-main">Task 3: Bootstrap</button>
+    </div>
+
+    <!-- Task 3 -->
+    <div class="modal fade" id="modal-main" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal-label">Clock</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="local-time">Current time: </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="introduction">
+            <h1 style="margin-left: 5rem; margin-top: 2rem; margin-bottom: 1rem;"><b>Who is Rina?</b></h1>
+            <img class="image-right" alt="Expressionless Rina" src="images/expressionless.gif">
+            <p class="paragraph-left size-change">
+                Tennoji Rina is a character in the "Love Live!" series. She is a first-year at Nijigasaki High School.
+                She has trouble conveying her emotions through facial expressions, leading her to be seen as unfriendly since childhood.
+                Spending most of her time alone, she developed interest in technology and became a tech-savvy.
+            </p>
+            <img class="image-left" alt="Emotive Signals" src="images/emotive_signals.png">
+            <p class="paragraph-right size-change">
+                Eventually, she figured she could draw faces on a notebook to express her feelings which she calls the "Rina-chan board",
+                followed by the invention of an electronic mask that changes expressions automatically. She wears it on live performances and activities that require both hands.
+            </p>
+        </div>
+    </main>
+
+    <section>
+        <div id="char-growth">
+            <h1 style="margin-left: 5rem; margin-top: 2rem; margin-bottom: 1rem;"><b>Chasing a Dream</b></h1>
+            <img class="image-right" alt="Rina practices smiling" src="images/like_this.png">
+            <p class="paragraph-left size-change">
+                In search of a club to join as mandated by her school, Rina was thrilled by the school idols' performance.
+                She realized she could express her emotions by performing on stage, showing everyone who she truly is.
+                With the support of her best friend Ai, the two joined the school idol club together.
+            </p>
+            <img class="image-left" id="mononoke-girl" alt="Mononoke Girl" src="images/mononoke_girl.png">
+            <p class="paragraph-right size-change">
+                It wasn't all smooth sailing as she didn't have the electronic Rina-chan board yet. The day before her scheduled debut performance, she looked at herself in a mirror,
+                noticing the face that still couldn't put on a smile. She hid herself in a cardboard box out of frustration.
+                Owing to her friends' support, she got to her senses and invented the board she could wear on stage to connect with the audience.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div id="card-gallery">
+            <h1 style="margin-left: 5rem; margin-top: 2rem; margin-bottom: 1rem;"><b>Gallery</b></h1>
+            <img class="gallery-left" alt="Flower Field of Lights" src="images/flower_field.png">
+            <img class="gallery-right" alt="It Doubles as a Flashlight" src="images/flashlight.png">
+            <img class="gallery-left" alt="Checkmate" src="images/checkmate.png">
+            <img class="gallery-right" alt="Weather Wizard" src="images/weather_wizard.png">
+            <br><br>
+        </div>
+    </section>
+
+    <!-- Problems 4, 5, 6 -->
+    <!-- Using the "required" attribute for problem 5 -->
+    <section>
+        <div id="comments-problems">
+            <h1 style="margin-left: 5rem; margin-top: 2rem; margin-bottom: 1rem;"><b>Comments</b></h1>
+            <div id="comment-thread">
+                <div class="comment d-flex" id="comment1">
+                    <div class="comment-icon">
+                        <svg width="3rem" height="3rem"><circle cx="1.5rem" cy="1.5rem" r="1.5rem" fill="red"></circle></svg>
+                    </div>
+                    <div class="comment-comment">
+                        <h5 class="comment-comment-email">tennojirina1113@nijigaku.edu</h5>
+                        <p class="comment-comment-comment">I love cats!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Form starts here -->
+            <h4 style="margin-left: 5rem; margin-top: 2rem; margin-bottom: 1rem;">Your Comment</h4>
+            <form action="" method="get" id="comment-form-object">
+                <div class="comment-form">
+                    <input type="email" name="email" id="comment-form-email" placeholder=" Enter your email" required>
+                </div>
+                <div class="comment-form">
+                    <textarea name="comment" id="comment-form-comment" placeholder=" Add a comment!" required></textarea>
+                </div>
+                <div class="comment-form">
+                    <input type="radio" name="color" id="comment-color-red" value="Red" required>
+                    <label for="comment-color-red">
+                        <svg width="1rem" height="1rem"><circle cx="0.5rem" cy="0.5rem" r="0.5rem" fill="red"></circle></svg> Red
+                    </label>
+                    <br>
+                    <input type="radio" name="color" id="comment-color-green" value="Green">
+                    <label for="comment-color-green">
+                        <svg width="1rem" height="1rem"><circle cx="0.5rem" cy="0.5rem" r="0.5rem" fill="green"></circle></svg> Green
+                    </label>
+                    <br>
+                    <input type="radio" name="color" id="comment-color-yellow" value="Yellow">
+                    <label for="comment-color-yellow">
+                        <svg width="1rem" height="1rem"><circle cx="0.5rem" cy="0.5rem" r="0.5rem" fill="yellow"></circle></svg> Yellow
+                    </label>
+                    <br>
+                    <input type="radio" name="color" id="comment-color-blue" value="Blue">
+                    <label for="comment-color-blue">
+                        <svg width="1rem" height="1rem"><circle cx="0.5rem" cy="0.5rem" r="0.5rem" fill="blue"></circle></svg> Blue
+                    </label>
+                </div>
+                <button type="submit" id="comment-button-submit">Add Comment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Task 2 -->
+    <aside>
+        <div style="text-align: center;">
+            <h2><u>Spotlights</u></h2>
+            <h3 id="added-spotlights"></h3>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container-box">
+            <div class="row" style="text-align: center;">
+                <div class="col-sm-2 col-xl-2" style="background-color: #FBD8FB;"><a target="_blank" href="https://idol.st/allstars/cards/Rina-Tennoji/">Idol Story</a></div>
+                <div class="col-sm-4 col-xl-3" style="background-color: #FDA0E0;"><a target="_blank" href="https://love-live.fandom.com/wiki/Rina_Tennoji">Love Live! Wiki</a></div>
+                <div class="col-sm-4 col-xl-4" style="background-color: #FF7F88; "><a class="col-sm-4 col-xl-3" target="_blank" href="https://www.youtube.com/@lovelive_series">Official YouTube Channel</a></div>
+                <div class="col-sm-2 col-xl-3"><a class="col-sm-2 col-xl-3" href="#banner">Back to top</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
